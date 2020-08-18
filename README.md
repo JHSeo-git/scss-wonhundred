@@ -4,7 +4,7 @@
 
 Practice to nomadcoder clone project
 
-- demo : 
+- demo : https://jhseo-git.github.io/scss-wonhundred/
 - target : [https://wonhundred.com/](https://wonhundred.com/)
 
 ## To Clone:
