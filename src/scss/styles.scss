@@ -148,12 +148,41 @@ footer {
     .inform__input {
       background-color: white;
       padding: 35px;
-      &:first-child {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      .label {
+        font-weight: 900;
+        margin-bottom: 15px;
+      }
+      .input {
+        display: grid;
+        grid-template-columns: 4fr repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        gap: 1px;
+        background-color: black;
+        border: 1px solid black;
+        .email {
+          border: none;
+          background-color: white;
+          padding: 15px;
+        }
+        .input__button {
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 900;
+        }
+      }
+      .link__list {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 5fr;
       }
       &:last-child {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         grid-column: span 3;
         padding: 10px 35px;
